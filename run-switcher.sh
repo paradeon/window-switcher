@@ -11,8 +11,11 @@ SCRIPT_NAME="window-switcher.py"
 SCRIPT_PATH="$SCRIPT_DIR/$SCRIPT_NAME"
 
 # Log file paths
+LOG_PATH="$SCRIPT_DIR/log"
 STDOUT_LOG="$SCRIPT_DIR/stdout.log"
 STDERR_LOG="$SCRIPT_DIR/stderr.log"
+
+mkdir -p $LOG_PATH
 
 # Create the log files if they do not exist
 touch "$STDOUT_LOG"

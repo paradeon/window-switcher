@@ -12,6 +12,8 @@ SET SCRIPT_PATH=%SCRIPT_DIR%%SCRIPT_NAME%
 SET STDOUT_LOG=%SCRIPT_DIR%stdout.log
 SET STDERR_LOG=%SCRIPT_DIR%stderr.log
 
+mkdir %LOG_PATH%
+
 REM Create the log files if they do not exist
 IF NOT EXIST "%STDOUT_LOG%" (type nul > "%STDOUT_LOG%")
 IF NOT EXIST "%STDERR_LOG%" (type nul > "%STDERR_LOG%")
