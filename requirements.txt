@@ -1,0 +1,5 @@
+PyGetWindow==0.0.9
+pyobjc-core==11.1
+pyobjc-framework-Cocoa==11.1
+pyobjc-framework-Quartz==11.1
+PyRect==0.2.0
