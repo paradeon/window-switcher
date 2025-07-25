@@ -1,0 +1,6 @@
+# Exclude virtual environments
+log/
+*.log
+venv/
+.venv/
+

@@ -5,8 +5,12 @@
 git clone https://github.com/paradeon/window-switcher.git
 cd window-switcher
 ```
+2. **Create the virtual environment**:
+```
+  python3 -m venv venv
+```
 
-2. **Activate the virtual environment**:
+3. **Activate the virtual environment**:
 - **On macOS/Linux**: 
   ```bash
   source venv/bin/activate
@@ -19,12 +23,12 @@ cd window-switcher
   .\venv\Scripts\activate
   ```
 
-3. **Install dependencies**:
+4. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Run**:
+5. **Run**:
 - **On macOS/Linux**: 
   ```bash
   ./run-switcher.sh
